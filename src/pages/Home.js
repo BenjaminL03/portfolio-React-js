@@ -5,9 +5,23 @@ function Home() {
       <section
         className="hero d-flex align-items-center justify-content-center text-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${process.env.PUBLIC_URL}/images/hero-bg.jpg)`,
+          backgroundImage:
+            "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/hero-bg.jpg')",
         }}
-      ></section>
+      >
+        <div>
+          <h1 className="display-4">Bonjour, je suis Benjamin L</h1>
+          <h2 className="fs-4">Développeur web full stack</h2>
+          <button
+            type="button"
+            className="btn btn-danger mt-3"
+            data-bs-toggle="modal"
+            data-bs-target="#githubModal"
+          >
+            En savoir plus
+          </button>
+        </div>
+      </section>
 
       {/* Section À propos */}
       <section id="apropos" className="py-5">
@@ -22,7 +36,7 @@ function Home() {
               ></div>
               <img
                 src="/images/john-doe.jpg"
-                alt="John Doe"
+                alt="Benjamin L"
                 className="img-fluid mb-3"
               />
               <p>

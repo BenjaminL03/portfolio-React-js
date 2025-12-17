@@ -7,34 +7,35 @@ function Footer() {
         <div className="row">
           {/* Colonne 1 : Coordonnées */}
           <div className="col-md-4 mb-3">
-            <h5>John Doe</h5>
+            <h5>Benjamin L</h5>
             <p className="mb-1">40 rue Laure Diebold</p>
             <p className="mb-1">69009 Lyon, France</p>
             <p className="mb-1">10 20 30 40 50</p>
-            <p className="mb-3">john.doe@gmail.com</p>
-
+            <p className="mb-3">benjamin.l@gmail.com</p>
             {/* Icônes réseaux sociaux */}
             <a
               href="https://github.com"
-              className="text-white me-2"
+              className="me-2"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub"
             >
               <i className="bi bi-github fs-4"></i>
             </a>
             <a
               href="https://twitter.com"
-              className="text-white me-2"
+              className="me-2"
               target="_blank"
               rel="noreferrer"
+              aria-label="Twitter"
             >
               <i className="bi bi-twitter fs-4"></i>
             </a>
             <a
               href="https://linkedin.com"
-              className="text-white"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn"
             >
               <i className="bi bi-linkedin fs-4"></i>
             </a>
@@ -86,34 +87,52 @@ function Footer() {
             <h5>Mes dernières réalisations</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   Fresh Food
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   Restaurant Akira
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   Espace bien-être
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   SEO
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   Création d'une API
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white text-decoration-none">
+                <Link
+                  to="/portfolio"
+                  className="text-white text-decoration-none"
+                >
                   Maquette d'un site
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

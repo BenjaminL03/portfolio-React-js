@@ -3,3 +3,58 @@
   background-position: center;
   min-height: 100vh;
 }
+
+/* Liens du footer en gras au survol */
+footer a:hover {
+  font-weight: 600;
+}
+
+/* Icônes réseaux sociaux */
+footer .bi-github,
+footer .bi-twitter,
+footer .bi-linkedin {
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+footer .bi-github:hover,
+footer .bi-twitter:hover,
+footer .bi-linkedin:hover {
+  color: white;
+}
+
+/* Cartes Services - effet au survol */
+.card {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Boutons - éclaircir au survol */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #4d94ff;
+  border-color: #4d94ff;
+}
+
+.btn-danger {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+}
+
+/* Liens actifs dans le header - soulignés */
+.navbar .nav-link.active {
+  text-decoration: underline;
+}

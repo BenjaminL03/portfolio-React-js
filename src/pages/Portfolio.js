@@ -71,7 +71,7 @@ function Portfolio() {
                     alt={projet.titre}
                   />
                   <div className="card-body text-center">
-                    <h5 className="card-title">{projet.titre}</h5>
+                    <h2 className="card-title h5">{projet.titre}</h2>
                     <p className="card-text">{projet.description}</p>
                     <a href="#" className="btn btn-primary">
                       Voir le site

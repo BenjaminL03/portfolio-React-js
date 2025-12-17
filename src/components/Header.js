@@ -6,7 +6,7 @@ function Header() {
       <div className="container-fluid">
         {/* Logo */}
         <Link className="navbar-brand" to="/">
-          JOHN DOE
+          BENJAMIN L
         </Link>
 
         {/* Bouton burger (visible uniquement en mobile/tablette) */}

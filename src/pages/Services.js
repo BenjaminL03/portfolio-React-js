@@ -28,7 +28,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-pen fs-1 text-primary mb-3"></i>
-                  <h3 className="card-title">UX Design</h3>
+                  <h2 className="card-title h5">UX Design</h2>
                   <p className="card-text">
                     L'UX Design est une discipline qui consiste à concevoir des
                     produits (sites web, applications mobiles, logiciels, objets
@@ -45,7 +45,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-code-slash fs-1 text-primary mb-3"></i>
-                  <h3 className="card-title">Développement web</h3>
+                  <h2 className="card-title h5">Développement web</h2>
                   <p className="card-text">
                     Le développement de sites web consiste à créer des sites
                     internet en utilisant des langages de programmation (HTML,
@@ -61,7 +61,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-search fs-1 text-primary mb-3"></i>
-                  <h3 className="card-title">Référencement</h3>
+                  <h2 className="card-title h5">Référencement</h2>
                   <p className="card-text">
                     Le référencement naturel (SEO) est une technique qui
                     consiste à optimiser un site web pour le faire remonter dans
