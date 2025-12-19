@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+Portfolio - Benjamin Leo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet est un portfolio de développeur web full stack réalisé avec React.js. Il présente mes compétences, mes services et mes réalisations dans le domaine du développement web.
 
-In the project directory, you can run:
+Le site comprend les pages suivantes :
 
-### `npm start`
+- **Accueil** : Présentation personnelle et compétences techniques
+- **Services** : Offres de services (UX Design, Développement web, Référencement)
+- **Portfolio** : Galerie de projets réalisés
+- **Contact** : Formulaire de contact et coordonnées
+- **Mentions légales** : Informations légales du site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies utilisées
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js** - Framework JavaScript
+- **React Router** - Gestion des routes
+- **Bootstrap 5** - Framework CSS responsive
+- **Bootstrap Icons** - Icônes
+- **Google Fonts** - Police Nunito Sans
+- **API GitHub** - Récupération dynamique des données de profil
 
-### `npm test`
+## Prérequis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Avant de commencer, assurez-vous d'avoir installé :
 
-### `npm run build`
+- **Node.js** (version 14 ou supérieure) - [Télécharger Node.js](https://nodejs.org/)
+- **npm** (inclus avec Node.js) ou **yarn**
+- **Git** - [Télécharger Git](https://git-scm.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pour vérifier les installations :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+node --version
+npm --version
+git --version
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation
 
-### `npm run eject`
+Cloner le dépôt\*\*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/BenjaminL03/portfolio.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Accéder au dossier du projet\*\*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd portfolio
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installer les dépendances\*\*
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lancement
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Mode développement
 
-### Code Splitting
+Pour lancer le serveur de développement :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Le site sera accessible à l'adresse : [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Le serveur se recharge automatiquement à chaque modification du code.
 
-### Making a Progressive Web App
+Mode production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pour créer une version optimisée pour la production :
 
-### Advanced Configuration
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Les fichiers seront générés dans le dossier `build/`.
 
-### Deployment
+Structure du projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+portfolio/
+├── public/
+│   ├── images/           # Images du site
+│   ├── favicon.png       # Favicon
+│   └── index.html        # Page HTML principale
+├── src/
+│   ├── components/       # Composants réutilisables
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── GitHubModal.js
+│   ├── pages/            # Pages du site
+│   │   ├── Home.js
+│   │   ├── Services.js
+│   │   ├── Portfolio.js
+│   │   ├── Contact.js
+│   │   └── MentionsLegales.js
+│   ├── App.js            # Composant principal
+│   ├── App.css           # Styles personnalisés
+│   ├── index.js          # Point d'entrée
+│   └── index.css         # Styles globaux
+├── package.json          # Dépendances du projet
+└── README.md             # Documentation
+```
 
-### `npm run build` fails to minify
+Auteur
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+\*\*Benjamin Leo - Développeur web full stack
+
+GitHub : [@BenjaminL03](https://github.com/BenjaminL03)
+
+Licence
+
+Ce projet est réalisé dans le cadre d'une formation au Centre Européen de Formation.
