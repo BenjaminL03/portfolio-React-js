@@ -3,24 +3,27 @@ function Services() {
     <>
       {/* Bannière */}
       <section
-        className="py-5 text-center text-white"
+        className="py-5"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/banner.jpg')",
+          backgroundImage: "url('/images/banner.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          minHeight: "200px",
         }}
-      >
-        <h1 className="display-4">Mon offre de services</h1>
+      ></section>
+
+      {/* Titre */}
+      <section className="py-5 text-center">
+        <h1 className="display-4 fw-bold">Mon offre de services</h1>
         <p>Voici les prestations sur lesquelles je peux intervenir</p>
         <div
           className="border-bottom border-primary mx-auto"
-          style={{ width: "100px", borderWidth: "3px" }}
+          style={{ width: "380px", borderWidth: "4px", borderTop: "5px solid" }}
         ></div>
       </section>
 
       {/* Cartes services */}
-      <section className="py-5">
+      <section className="pb-5">
         <div className="container">
           <div className="row">
             {/* UX Design */}
@@ -28,7 +31,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-pen fs-1 text-primary mb-3"></i>
-                  <h2 className="card-title h5">UX Design</h2>
+                  <h2 className="card-title h5 fw-bold">UX Design</h2>
                   <p className="card-text">
                     L'UX Design est une discipline qui consiste à concevoir des
                     produits (sites web, applications mobiles, logiciels, objets
@@ -45,7 +48,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-code-slash fs-1 text-primary mb-3"></i>
-                  <h2 className="card-title h5">Développement web</h2>
+                  <h2 className="card-title h5 fw-bold">Développement web</h2>
                   <p className="card-text">
                     Le développement de sites web consiste à créer des sites
                     internet en utilisant des langages de programmation (HTML,
@@ -61,7 +64,7 @@ function Services() {
               <div className="card h-100 text-center p-4">
                 <div className="card-body">
                   <i className="bi bi-search fs-1 text-primary mb-3"></i>
-                  <h2 className="card-title h5">Référencement</h2>
+                  <h2 className="card-title h5 fw-bold">Référencement</h2>
                   <p className="card-text">
                     Le référencement naturel (SEO) est une technique qui
                     consiste à optimiser un site web pour le faire remonter dans

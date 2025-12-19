@@ -42,24 +42,27 @@ function Portfolio() {
     <>
       {/* Bannière */}
       <section
-        className="py-5 text-center text-white"
+        className="py-5"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/banner.jpg')",
+          backgroundImage: "url('/images/banner.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          minHeight: "200px",
         }}
-      >
-        <h1 className="display-4">Portfolio</h1>
+      ></section>
+
+      {/* Titre */}
+      <section className="py-5 text-center">
+        <h1 className="display-4 fw-bold">Portfolio</h1>
         <p>Voici quelques-unes de mes réalisations.</p>
         <div
           className="border-bottom border-primary mx-auto"
-          style={{ width: "100px", borderWidth: "3px" }}
+          style={{ width: "380px", borderWidth: "4px", borderTop: "5px solid" }}
         ></div>
       </section>
 
       {/* Grille des projets */}
-      <section className="py-5">
+      <section className="pb-5">
         <div className="container">
           <div className="row">
             {projets.map((projet, index) => (
@@ -71,7 +74,7 @@ function Portfolio() {
                     alt={projet.titre}
                   />
                   <div className="card-body text-center">
-                    <h2 className="card-title h5">{projet.titre}</h2>
+                    <h2 className="card-title h fw-bold">{projet.titre}</h2>
                     <p className="card-text">{projet.description}</p>
                     <a href="#" className="btn btn-primary">
                       Voir le site

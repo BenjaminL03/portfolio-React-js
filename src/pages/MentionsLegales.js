@@ -13,7 +13,7 @@ function MentionsLegales() {
         <h1 className="display-4">Mentions légales</h1>
         <div
           className="border-bottom border-primary mx-auto"
-          style={{ width: "100px", borderWidth: "3px" }}
+          style={{ width: "380px", borderWidth: "4px", borderTop: "5px solid" }}
         ></div>
       </section>
 
@@ -40,7 +40,7 @@ function MentionsLegales() {
               >
                 <div className="accordion-body">
                   <p>
-                    <strong>John Doe</strong>
+                    <strong>Benjamin L</strong>
                   </p>
                   <p>
                     <i className="bi bi-building me-2"></i>40 rue Laure Diebold
@@ -124,8 +124,10 @@ function MentionsLegales() {
                     .
                   </p>
                   <p>
-                    Les images utilisées sur ce site sont libres de droits et
-                    ont été obtenues sur le site{" "}
+                    <em>
+                      Les images utilisées sur ce site sont libres de droits et
+                      ont été obtenues sur le site{" "}
+                    </em>
                     <a
                       href="https://pixabay.com"
                       target="_blank"
@@ -136,7 +138,7 @@ function MentionsLegales() {
                     .
                   </p>
                   <p>
-                    La favicon de ce site a été fournie par{" "}
+                    <em>La favicon de ce site a été fournie par </em>
                     <a
                       href="https://www.flaticon.com"
                       target="_blank"
